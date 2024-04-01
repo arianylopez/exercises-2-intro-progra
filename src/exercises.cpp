@@ -6,6 +6,14 @@ using namespace std;
 
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
+  string str;
+  getline(s1, str);
+  for(int i=0; i<=str.size(); ++i){
+    if(str[i]==' '){
+      cout<<i<<endl;
+    }
+  }
+  cout<<str.size()<<endl;
 }
 
 void exercise_2(string s1) {
