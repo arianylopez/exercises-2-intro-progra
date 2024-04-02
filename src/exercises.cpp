@@ -24,7 +24,7 @@ void exercise_2(string s1) {
         word="";
       }
     } else{
-      word+=s1[i]
+      word+=s1[i];
     }
   }
 }
