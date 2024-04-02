@@ -16,6 +16,16 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
+  for(int i=0; i<=s1.size(); ++i){
+    if(s1[i]==''||i==s1.size()){
+      if(!word.empty()){
+        cout<<"["<<word<<"]"<<endl;
+        word="";
+      }
+    } else{
+      word+=s1[i]
+    }
+  }
 }
 
 void exercise_3(string s1) {
