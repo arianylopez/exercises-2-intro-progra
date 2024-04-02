@@ -73,6 +73,9 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
+  for(int i=1; i<=n; ++i){
+    suma+=pow(i,k);
+  }
   return 0;
 }
 
