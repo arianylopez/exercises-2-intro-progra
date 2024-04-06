@@ -73,10 +73,11 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
-  long suma;
-  for(int i=1; i<=n; ++i){
+  long suma=0;
+  for(int i=0; i<=n; ++i){
     suma+=pow(i,k);
   }
+  cout<<suma<<endl;
   return 0;
 }
 
