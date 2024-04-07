@@ -92,7 +92,7 @@ void exercise_15(int decimal) {
   int binario[32];
   int i=0;
   if(decimal==0){
-    cout<<0<<endl;
+    cout<<0;
     return;
   }
   while(decimal>0){
@@ -101,8 +101,9 @@ void exercise_15(int decimal) {
     i++;
   }
   for(int j=i-1; j>=0; j--){
-    cout<<binario[j]<<endl;
+    cout<<binario[j];
   }
+  cout<<endl;
 }
 
 void exercise_16(int divident, int divider) {
