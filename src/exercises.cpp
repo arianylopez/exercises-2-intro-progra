@@ -35,7 +35,7 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
-  if(n<=0){
+  if(n<0){
     cout<<"El numero es negativo. Intentelo de nuevo"<<endl;
     return;
   } else if(n>14){
@@ -46,7 +46,8 @@ void exercise_4(int n) {
   for(int i=1; i<=n; ++i){
     resultado*=i;
   }
-  cout<<resultado; 
+  cout<<resultado;
+  cout<<endl; 
 }
 
 void exercise_5(int n, int k) {
