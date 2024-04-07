@@ -58,10 +58,10 @@ int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   int suma=0;
   while(n>0){
-    suma+=n%10;
-    n /=10;
+    suma += n%10;
+    n /= 10;
   }
-  cout<<suma<<endl;
+  cout<<suma;
   return 0;
 }
 
