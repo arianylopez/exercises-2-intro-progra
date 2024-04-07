@@ -43,6 +43,7 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
+
   return 0;
 }
 
@@ -74,8 +75,8 @@ void exercise_12() {
 long exercise_13(int n, int k) {
   // TODO: YOUR CODE HERE
   long suma=0;
-  for(int i=0; i<=n; ++i){
-    suma+=pow(i,k);
+  for(int i=1; i<=n; ++i){
+    suma+=pow(i,k); 
   }
   cout<<suma<<endl;
   return 0;
@@ -88,6 +89,20 @@ string exercise_14(int n) {
 
 void exercise_15(int decimal) {
   // TODO: YOUR CODE HERE
+  int binario[32];
+  int i=0;
+  if(decimal==0){
+    cout<<0;
+    return;
+  }
+  while(decimal>0){
+    binario[i]=decimal%2;
+    decimal /= 2;
+    i++;
+  }
+  for(int j=i-1; j>=0; j--){
+    cout<<binario[j];
+  }
 }
 
 void exercise_16(int divident, int divider) {
