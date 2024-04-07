@@ -92,7 +92,7 @@ void exercise_15(int decimal) {
   int binario[32];
   int i=0;
   if(decimal==0){
-    cout<<0;
+    cout<<0<<endl;
     return;
   }
   while(decimal>0){
