@@ -57,12 +57,12 @@ void exercise_5(int n, int k) {
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   int suma=0;
-  while(n>0){
+  while(n!=0){
     suma += n%10;
     n /= 10;
   }
   cout<<suma;
-  return 0;
+  return suma;
 }
 
 void exercise_7(int n) {
