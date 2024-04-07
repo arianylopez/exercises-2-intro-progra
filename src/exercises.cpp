@@ -35,6 +35,18 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+  if(n<=0){
+    cout<<"El numero es negativo. Intentelo de nuevo"<<endl;
+    return;
+  } else if(n>14){
+    cout<<"El numero es muy grande. Intentelo de nuevo"<<endl;
+    return;
+  }
+  int resultado=1;
+  for(int i=1; i<=n; ++i){
+    resultado*=i;
+  }
+  cout<<resultado; 
 }
 
 void exercise_5(int n, int k) {
@@ -57,6 +69,7 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+
 }
 
 int exercise_10(int a, int b) {
