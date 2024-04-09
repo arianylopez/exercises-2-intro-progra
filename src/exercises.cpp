@@ -57,7 +57,7 @@ void exercise_5(int n, int k) {
   int dia=1;
   for(int i=0; i<6; ++i){
     for(int columna=(i==0 ? n -1:0); columna <7 && dia<=k; ++columna){
-      calendario[i][columna]=dia++;
+      calendar[i][columna]=dia++;
     }
   }
   for(int i=0; i<6; ++i){
