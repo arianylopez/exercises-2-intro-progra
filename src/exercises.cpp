@@ -31,6 +31,7 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_4(int n) {
@@ -52,6 +53,23 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
+  int calendar[6][7]={0};
+  int dia=1;
+  for(int i=0; i<6; ++i){
+    for(int columna=(i==0 ? n -1:0); columna <7 && dia<=k; ++columna){
+      calendario[i][columna]=dia++;
+    }
+  }
+  for(int i=0; i<6; ++i){
+    for(int columna=0; columna<7; ++columna){
+      if(calendar[i][columna]==0){
+        cout<<"   ";
+      } else{
+        cout<<(calendar[i][columna]<10 ? " ": "")<<calendar[i][columna]<<" ";
+      }
+      cout<<endl;
+    }
+  }
 }
 
 int exercise_6(int n) {
