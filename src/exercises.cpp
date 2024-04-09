@@ -151,13 +151,6 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int cociente=0;
-  int residuo=divident;
-  while(residuo>=divider){
-    residuo -= divider;
-    cociente++; 
-  }
-  cout<<cociente<<" "<<residuo<<endl;
 }
 
 void exercise_17(int n) {
