@@ -56,7 +56,7 @@ void exercise_5(int n, int k) {
   int calendar[6][7]={0};
   int dia=1;
   for(int i=0; i<6; ++i){
-    for(int columna=(i==0 ? n -1:0); columna <7 && dia<=k; ++columna){
+    for(int columna=(i==0 ? n-1:0); columna <7 && dia<=k; ++columna){
       calendar[i][columna]=dia++;
     }
   }
@@ -94,6 +94,7 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
+  
 }
 
 void exercise_9(string s) {
@@ -154,6 +155,22 @@ void exercise_16(int divident, int divider) {
 
 void exercise_17(int n) {
   // TODO: YOUR CODE HERE
+  int contador=0;
+  int num=2;
+  while(contador<n){
+    int primo=1;
+    for(int i=2; i*i<=num; ++i){
+      if(num%i==0){
+        primo=0;
+        break;
+      }
+    }
+    if(primo){
+      cout<<num<<" ";
+      contador++;
+    }
+    num++;
+  }
 }
 
 void exercise_18_19(int debut, int fin) {
