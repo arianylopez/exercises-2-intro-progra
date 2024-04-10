@@ -35,12 +35,12 @@ void exercise_3(string s1) {
   while(i<20){
     if(s1[i]=='1'){
       cout<<"Om-nom-nom :P"<<endl;
-      i+=1;
+      i=i+1;
     } else if(s1[i]=='0'){
       cout<<"No cake:("<<endl;
       break;
     } else{
-      i+=1;
+      i=i+1;
     }
   }
 }
