@@ -75,12 +75,13 @@ void exercise_5(int n, int k) {
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   int suma=0;
+  string nstring=to_string(n);
   int nsize=to_string(n).size();
   if(n<=0){
     return 0;
   } else{
   for(int i=0; i<nsize; ++i){
-    int digitos=string_n[i];
+    int digitos=nstring[i];
     suma=suma+digitos-'0';
   }
   }
