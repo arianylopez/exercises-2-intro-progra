@@ -75,16 +75,15 @@ void exercise_5(int n, int k) {
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
   int suma=0;
-
-  if(n<0){
-    n = -n;
+  int nsize=to_string(n).size();
+  if(n<=0){
+    return 0;
+  } else{
+  for(int i=0; i<nsize; ++i){
+    int digitos=string_n[i];
+    suma=suma+digitos-'0';
   }
-  
-  while(n != 0){
-    suma += n%10;
-    n /= 10;
   }
-  cout<<suma;
   return suma;
 }
 
@@ -151,13 +150,6 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
-  int cociente=0;
-  int residuo=divident;
-  while(residuo>=divider){
-    residuo -= divider;
-    cociente++;
-  }
-  cout<<cociente<<" "<<residuo<<endl;
 }
 
 void exercise_17(int n) {
