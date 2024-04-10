@@ -170,7 +170,7 @@ void exercise_16(int divident, int divider) {
   int residuo=divident;
   int i=0;
   if(divider!=0){
-    for(i=0; residuo-divider>=0;++i){
+    for(i; residuo-divider>=0;++i){
       residuo-=divider;
     }
     cociente=i;
