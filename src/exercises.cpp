@@ -166,6 +166,16 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
+  int cociente=0;
+  int residuo=divident;
+  if(divider!=0){
+    for(i=0; residuo-divider>=0;++i){
+      residuo-=divider;
+    }
+    cociente=i;
+    cout<<cociente<<endl;
+    cout<<residuo<<endl;
+  }
 }
 
 void exercise_17(int n) {
