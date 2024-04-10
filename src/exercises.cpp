@@ -121,8 +121,7 @@ long exercise_13(int n, int k) {
   for(int i=1; n>=i; ++i){
     suma+=pow(i,k); 
   }
-  cout<<suma<<endl;
-  return 0;
+  return suma;
 }
 
 string exercise_14(int n) {
