@@ -32,15 +32,15 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
   int i=0;
-  for(i=0;i<20;++i){
+  for(i=1;i<20;i++){
     if(s1[i]=='1'){
       cout<<"Om-nom-nom :P"<<endl;
-      ++i;
+      i++;
     } else if(s1[i]=='0'){
       cout<<"No cake:("<<endl;
       break;
     } else{
-      ++i;
+      i++;
     }
   }
 }
