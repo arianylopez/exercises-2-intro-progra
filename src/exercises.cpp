@@ -174,7 +174,7 @@ void exercise_16(int divident, int divider) {
       residuo=residuo-divider;
     }
     cociente=i;
-    cout<<cociente<<endl;
+    cout<<cociente<<" ";
     cout<<residuo<<endl;
   }
 }
