@@ -18,7 +18,7 @@ void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
   string word; 
   for(int i=0; i<=s1.size(); ++i){
-    char doc_char=doc[i];
+    char doc_char=s1[i];
     if(doc_char==' '||i==s1.size() && doc!=""){
       cout<<'['<<word<<']'<<endl;
       word="";
