@@ -124,8 +124,7 @@ int exercise_10(int a, int b) {
     b=a%b;
     a=mcd;
   }
-  cout<<a<<endl;
-  return 0;
+  return a;
 }
 
 void exercise_11() {
