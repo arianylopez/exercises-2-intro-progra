@@ -131,7 +131,7 @@ void exercise_11() {
   // TODO: YOUR CODE HERE
   double UI=1;
   cout<<"U0 = 1"<<endl;
-  for(int i=1; i<=10; ++i){
+  for(int i=1; 10>=i; ++i){
     double resultado=UI/(i+1);
     UI=resultado;
     cout<<"U"<<i<<" = "<<UI<<endl;
