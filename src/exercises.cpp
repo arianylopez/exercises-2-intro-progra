@@ -134,7 +134,7 @@ void exercise_11() {
   for(int i=1; i<=10; ++i){
     double resultado=UI/(i+1);
     UI=resultado;
-    cout<<"U"<<i<<"="<<UI<<endl;
+    cout<<"U"<<i<<" = "<<UI<<endl;
   }
 }
 
