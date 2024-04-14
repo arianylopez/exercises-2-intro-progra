@@ -124,6 +124,7 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
+
 }
 
 void exercise_12() {
@@ -141,6 +142,16 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
+  string word=to_string(n);
+  string reversed="";
+  for(int i=word.size(); i>=0; i--){
+    reversed+=word[i];
+  }
+  if(reversed==word){
+    cout<<"Es palindrome"<<endl;
+  } else{
+    cout<<"No es palindrome"<<endl;
+  }
   return "";
 }
 
