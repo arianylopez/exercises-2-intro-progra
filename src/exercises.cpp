@@ -114,7 +114,22 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
-
+  int letra=0;
+  string ubicacion;
+  for(int i=0; i<s.size(); i++){
+    if(s[i]=='f'){
+      letra+=1;
+      if(letra==2){
+        ubicacion+=to_string(i);
+      }
+    }
+  } if(letra==0){
+    cout<<-2<<endl;
+  } else if(letra==1){
+    cout<<-1<<endl;
+  } else {
+    cout<<ubicacion<<endl;
+  }
 }
 
 int exercise_10(int a, int b) {
