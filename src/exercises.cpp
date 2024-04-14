@@ -130,7 +130,7 @@ int exercise_10(int a, int b) {
 void exercise_11() {
   // TODO: YOUR CODE HERE
   double UI=1;
-  cout<<"U0=1"<<endl;
+  cout<<"U0 = 1"<<endl;
   for(int i=1; i<=10; ++i){
     double resultado=UI/(i+1);
     UI=resultado;
