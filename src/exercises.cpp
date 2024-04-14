@@ -65,16 +65,16 @@ void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
   int espacios=(n-1)*3;
   for(int i=0; i<espacios; ++i){
-    cout<<" "<<endl;
+    cout<<" ";
     for(int i=1; i<=k; ++i){
       if(i<10){
-        cout<<" "<<endl;
+        cout<<" ";
       }
       cout<<i;
       if((i+n-1)%7==0 || i==k){
         cout<<endl;
       } else{
-        cout<<" "<<endl;
+        cout<<" ";
       }
     }
   }
