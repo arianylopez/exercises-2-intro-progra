@@ -123,7 +123,7 @@ void exercise_8(string s) {
       if(s2[i]==s2[s2.size()-1-i]){
         palindromo=true;
       } else{
-        cout<<"NO."<<endl;
+        cout<<"NO"<<endl;
         palindromo=false;
         break;
       }
