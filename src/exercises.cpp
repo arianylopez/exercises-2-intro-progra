@@ -109,13 +109,35 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
-  
+  string s2;
+  bool palindromo;
+  if(s==""){
+    cout<<"YES"<<endl;
+  } else{
+    for(int i=0; i<s.size();i++){
+      if(s[i]!=' '){
+        s2+=s[i];
+      }
+    }
+    for(int i=0; i<s2.size();i++){
+      if(s1[i]==s1(s1.size()-1-i)){
+        palindromo=true;
+      } else{
+        cout<<"NO."<<endl;
+        palidromo=false;
+        break;
+      }
+    }
+    if(palindromo==true){
+      cout<<"YES"<<endl;
+    }
+  }
 }
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
-  int letra=0;
   string ubicacion;
+  int letra=0;
   for(int i=0; i<s.size(); i++){
     if(s[i]=='f'){
       letra+=1;
