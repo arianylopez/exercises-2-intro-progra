@@ -63,21 +63,19 @@ void exercise_4(int n) {
 
 void exercise_5(int n, int k) {
   // TODO: YOUR CODE HERE
-  int calendar[6][7]={0};
-  int dia=1;
-  for(int i=0; i<6; ++i){
-    for(int columna=(i==0 ? n-1:0); columna <7 && dia<=k; ++columna){
-      calendar[i][columna]=dia++;
-    }
-  }
-  for(int i=0; i<6; ++i){
-    for(int columna=0; columna<7; ++columna){
-      if(calendar[i][columna]==0){
-        cout<<"   ";
-      } else{
-        cout<<(calendar[i][columna]<10 ? " ": "")<<calendar[i][columna]<<" ";
+  int espacios=(n-1)*3;
+  for(int i=0; i<espacios; ++i){
+    cout<<" "<<endl;
+    for(int i=1; i<=k; ++i){
+      if(i<10){
+        cout<" "<<endl;
       }
-      cout<<endl;
+      cout<<i;
+      if((i+n-1)%7==0 || i==k){
+        cout<<endl;
+      } else{
+        cout<<" "<<endl;
+      }
     }
   }
 }
