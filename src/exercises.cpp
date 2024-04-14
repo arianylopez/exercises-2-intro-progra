@@ -142,17 +142,16 @@ long exercise_13(int n, int k) {
 
 string exercise_14(int n) {
   // TODO: YOUR CODE HERE
-  string word=to_string(n);
+  string original=to_string(n);
   string reversed="";
-  for(int i=word.size(); i>=0; i--){
-    reversed+=word[i];
+  for(int i=original.size()-1; i>=0; i--){
+    reversed+=original[i];
   }
-  if(reversed==word){
-    cout<<"Es palindrome"<<endl;
+  if(reversed==original){
+    return "Es palindrome";
   } else{
-    cout<<"No es palindrome"<<endl;
+    return "No es palindrome";
   }
-  return "";
 }
 
 void exercise_15(int decimal) {
