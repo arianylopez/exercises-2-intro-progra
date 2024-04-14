@@ -120,11 +120,11 @@ void exercise_8(string s) {
       }
     }
     for(int i=0; i<s2.size();i++){
-      if(s2[i]==s2(s2.size()-1-i)){
+      if(s2[i]==s2[s2.size()-1-i]){
         palindromo=true;
       } else{
         cout<<"NO."<<endl;
-        palidromo=false;
+        palindromo=false;
         break;
       }
     }
