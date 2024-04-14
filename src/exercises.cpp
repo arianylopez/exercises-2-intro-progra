@@ -68,7 +68,7 @@ void exercise_5(int n, int k) {
     cout<<" "<<endl;
     for(int i=1; i<=k; ++i){
       if(i<10){
-        cout<" "<<endl;
+        cout<<" "<<endl;
       }
       cout<<i;
       if((i+n-1)%7==0 || i==k){
