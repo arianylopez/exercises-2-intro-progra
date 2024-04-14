@@ -73,8 +73,8 @@ void exercise_5(int n, int k) {
       }
       cout<<i;
       if((i + n - 1)%7==0 || i==k){
-        if(i !=k){
-        cout<<endl;
+        if(i!=k){
+          cout<<" "<<endl;
         }
       } else{
         cout<<" ";
