@@ -217,7 +217,8 @@ void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
   if(fin>=debut){
     if(debut>0 && fin>0){
-      for(int i=0; i<=fin; ++i){
+      for(int debut=0; debut<=fin; ++debut){
+        int i=0;
         int debutt=debut;
         while(debutt!=0){
           if(debutt%3==0){
